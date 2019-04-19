@@ -328,7 +328,8 @@ NS Package M08A</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.508" drill="0">
+<clearance class="0" value="0.508"/>
 </class>
 </classes>
 <designrules name="default *">
@@ -975,16 +976,6 @@ design rules under a new name.</description>
 <approved hash="5,1,3e2e59bbbebe2ff4"/>
 <approved hash="5,1,06d34bf487b943f4"/>
 <approved hash="5,1,2143c8132262ecc5"/>
-<approved hash="5,1,01328311e37d9674"/>
-<approved hash="5,1,c18e6f7f7a621375"/>
-<approved hash="5,1,662f8294b2158c58"/>
-<approved hash="5,1,c0d28ceea8332374"/>
-<approved hash="5,1,c1369d03a87e1375"/>
-<approved hash="5,1,078f6226e1bb43f4"/>
-<approved hash="5,1,c02ea598b01d2374"/>
-<approved hash="5,1,c0527431524c1375"/>
-<approved hash="21,19,705a705a72587258"/>
-<approved hash="21,19,574c484c4a4eca4e"/>
 </errors>
 </board>
 </drawing>

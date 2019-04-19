@@ -5153,7 +5153,8 @@ Added bigger pads to the TO-92 package</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.508" drill="0">
+<clearance class="0" value="0.508"/>
 </class>
 </classes>
 <parts>

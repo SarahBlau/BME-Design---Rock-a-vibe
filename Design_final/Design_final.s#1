@@ -5153,7 +5153,8 @@ Added bigger pads to the TO-92 package</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.508" drill="0">
+<clearance class="0" value="0.508"/>
 </class>
 </classes>
 <parts>
@@ -5450,6 +5451,7 @@ Added bigger pads to the TO-92 package</description>
 <pinref part="P+5" gate="1" pin="V+"/>
 <wire x1="-101.6" y1="203.2" x2="-106.68" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="-106.68" y1="203.2" x2="-106.68" y2="205.74" width="0.1524" layer="91"/>
+<junction x="-101.6" y="203.2"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -5509,6 +5511,7 @@ Added bigger pads to the TO-92 package</description>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="-66.04" y1="190.5" x2="-66.04" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="185.42" x2="-83.82" y2="185.42" width="0.1524" layer="91"/>
+<junction x="-83.82" y="185.42"/>
 </segment>
 <segment>
 <pinref part="SPEAK-" gate="G$1" pin="1"/>
@@ -5535,6 +5538,7 @@ Added bigger pads to the TO-92 package</description>
 <wire x1="-27.94" y1="180.34" x2="-27.94" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A1" pin="GND"/>
 <wire x1="-27.94" y1="195.58" x2="-27.94" y2="185.42" width="0.1524" layer="91"/>
+<junction x="-27.94" y="185.42"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -5618,6 +5622,7 @@ Added bigger pads to the TO-92 package</description>
 <pinref part="SPEAK+" gate="G$1" pin="1"/>
 <wire x1="-88.9" y1="149.86" x2="-88.9" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="-109.22" y1="154.94" x2="-88.9" y2="154.94" width="0.1524" layer="91"/>
+<junction x="-109.22" y="154.94"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -5670,6 +5675,7 @@ Added bigger pads to the TO-92 package</description>
 <pinref part="P+6" gate="1" pin="+5V"/>
 <wire x1="-66.04" y1="203.2" x2="-55.88" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="203.2" x2="-55.88" y2="205.74" width="0.1524" layer="91"/>
+<junction x="-66.04" y="203.2"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="V+"/>
@@ -5684,6 +5690,7 @@ Added bigger pads to the TO-92 package</description>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="-43.18" y1="203.2" x2="-38.1" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="193.04" x2="-43.18" y2="203.2" width="0.1524" layer="91"/>
+<junction x="-43.18" y="203.2"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -5697,6 +5704,7 @@ Added bigger pads to the TO-92 package</description>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="-210.82" y1="134.62" x2="-198.12" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="-198.12" y1="134.62" x2="-198.12" y2="157.48" width="0.1524" layer="91"/>
+<junction x="-198.12" y="157.48"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -5708,6 +5716,7 @@ Added bigger pads to the TO-92 package</description>
 <wire x1="-228.6" y1="154.94" x2="-223.52" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="-228.6" y1="129.54" x2="-228.6" y2="134.62" width="0.1524" layer="91"/>
+<junction x="-228.6" y="134.62"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -5719,6 +5728,7 @@ Added bigger pads to the TO-92 package</description>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 <wire x1="-15.24" y1="203.2" x2="-5.08" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="203.2" x2="-5.08" y2="205.74" width="0.1524" layer="91"/>
+<junction x="-15.24" y="203.2"/>
 </segment>
 <segment>
 <pinref part="PWR" gate="G$1" pin="1"/>
@@ -5738,6 +5748,15 @@ Added bigger pads to the TO-92 package</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,-215.9,165.1,IC4,V+,+5V,,,"/>
+<approved hash="104,1,-215.9,149.86,IC4,V-,GND,,,"/>
+<approved hash="113,1,-90.0706,148.364,SPEAK+,,,,,"/>
+<approved hash="113,1,-89.7538,143.284,SPEAK-,,,,,"/>
+<approved hash="113,1,-228.837,166.144,IN,,,,,"/>
+<approved hash="113,1,-216.137,178.844,PWR,,,,,"/>
+<approved hash="113,1,-216.137,186.464,GNDD,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
